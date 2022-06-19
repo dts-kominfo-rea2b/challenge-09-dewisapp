@@ -20,7 +20,7 @@
 .subtitle::before {
   content: "";
   position: absolute;
-  width: 50rem;
+  width: 200px;
   height: 3px;
   background-color: grey;
   bottom: -8px;
