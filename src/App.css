@@ -1,4 +1,54 @@
 .App {
   text-align: center;
   display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+.container {
+  background-color: #fff;
+  margin: 100px 0;
+  width: 80%;
+}
+.title {
+  text-transform: uppercase;
+}
+.subtitle {
+  text-transform: capitalize;
+  position: relative;
+}
+.subtitle::before {
+  content: "";
+  position: absolute;
+  width: 50rem;
+  height: 3px;
+  background-color: grey;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contacts-wrapper {
+  background-color: #000;
+  margin: 30px auto;
+  width: 30%;
+
+  padding: 20px 0;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.avatar-wrapper {
+  width: 100%;
+}
+.avatar-wrapper img {
+  max-width: 100px;
+  border-radius: 100%;
+}
+.avatar-wrapper img:hover {
+}
+.info-content {
+  color: #fff;
+}
+.info-name {
+  color: #fff;
+  text-transform: uppercase;
 }
